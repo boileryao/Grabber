@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    style="?android:attr/buttonBarStyle"
+    android:layout_height="?android:actionBarSize">
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/power"
+        android:text="@string/power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/volume"
+        android:text="@string/volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/scroll"
+        android:text="@string/scroll"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/swipe"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/swipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
